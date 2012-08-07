@@ -3,7 +3,9 @@ PlanetBuilder
 
 PlanetBuilder is a quick script to bootstrap an RSS planet on a Unix system. 
 
-Planets are now an old (and tried) technology : simple RSS aggregators that poll a number of feeds (RSS or Atom) and write a flat HTML file aggregating them together. Planet itself is basically Python glue, that uses Mark Pilgrim's Universal Feed Parser to read from RDF, RSS and Atom feeds; and Tomas Styblo's templating engine to output static files in any format you can dream up.
+Planets are now an old (and tried) technology : simple RSS aggregators that poll a number of feeds (RSS or Atom) and write a flat HTML file aggregating them together. Planet itself is basically Python glue, that uses Mark Pilgrim's Universal Feed Parser to read from RDF, RSS and Atom feeds; and Tomas Styblo's templating engine to output static files in any format you can dream up. 
+
+To find out more about Planet see http://www.planetplanet.org/
 
 PlanetBuilder is an even simpler script that installs and configures Planet on Unix systems requiring as little work as possible.
 
