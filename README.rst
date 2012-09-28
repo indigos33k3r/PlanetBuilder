@@ -18,6 +18,8 @@ Simply copy the two scripts : planets.sh and reconfig.py into an empty directory
 
 where NEWPLANET is the name of the new planet you want to create. The script will create a new directory called NEWPLANET, download Planet code into it and configure the directory for use. 
 
+Note that PlanetBuilder is now using my fork of the PlanetPlanet code.
+
 Specify the feeds you want to aggregate in NEWPLANET/fancy/config.ini
 
 To refresh the feed you can now run the script : NEWPLANET/refresh.sh
